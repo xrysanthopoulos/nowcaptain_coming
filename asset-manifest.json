@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/xrysanthopoulos/nowcaptain_coming.git/static/css/main.32749c43.chunk.css",
+    "main.js": "/xrysanthopoulos/nowcaptain_coming.git/static/js/main.e08cd8cf.chunk.js",
+    "main.js.map": "/xrysanthopoulos/nowcaptain_coming.git/static/js/main.e08cd8cf.chunk.js.map",
+    "runtime-main.js": "/xrysanthopoulos/nowcaptain_coming.git/static/js/runtime-main.1ae28afc.js",
+    "runtime-main.js.map": "/xrysanthopoulos/nowcaptain_coming.git/static/js/runtime-main.1ae28afc.js.map",
+    "static/js/2.0956e9d4.chunk.js": "/xrysanthopoulos/nowcaptain_coming.git/static/js/2.0956e9d4.chunk.js",
+    "static/js/2.0956e9d4.chunk.js.map": "/xrysanthopoulos/nowcaptain_coming.git/static/js/2.0956e9d4.chunk.js.map",
+    "static/js/3.5e793163.chunk.js": "/xrysanthopoulos/nowcaptain_coming.git/static/js/3.5e793163.chunk.js",
+    "static/js/3.5e793163.chunk.js.map": "/xrysanthopoulos/nowcaptain_coming.git/static/js/3.5e793163.chunk.js.map",
+    "index.html": "/xrysanthopoulos/nowcaptain_coming.git/index.html",
+    "static/css/main.32749c43.chunk.css.map": "/xrysanthopoulos/nowcaptain_coming.git/static/css/main.32749c43.chunk.css.map",
+    "static/js/2.0956e9d4.chunk.js.LICENSE.txt": "/xrysanthopoulos/nowcaptain_coming.git/static/js/2.0956e9d4.chunk.js.LICENSE.txt",
+    "static/media/favicon_blue.98f43a57.ico": "/xrysanthopoulos/nowcaptain_coming.git/static/media/favicon_blue.98f43a57.ico",
+    "static/media/favicon_white.7d575ce1.ico": "/xrysanthopoulos/nowcaptain_coming.git/static/media/favicon_white.7d575ce1.ico",
+    "static/media/hero_image.868dca62.jpg": "/xrysanthopoulos/nowcaptain_coming.git/static/media/hero_image.868dca62.jpg",
+    "static/media/hero_video.83ce1696.mp4": "/xrysanthopoulos/nowcaptain_coming.git/static/media/hero_video.83ce1696.mp4",
+    "static/media/logo_hat_blue.a45f23ff.svg": "/xrysanthopoulos/nowcaptain_coming.git/static/media/logo_hat_blue.a45f23ff.svg",
+    "static/media/logo_text_blue.1ea5d04e.svg": "/xrysanthopoulos/nowcaptain_coming.git/static/media/logo_text_blue.1ea5d04e.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1ae28afc.js",
+    "static/js/2.0956e9d4.chunk.js",
+    "static/css/main.32749c43.chunk.css",
+    "static/js/main.e08cd8cf.chunk.js"
+  ]
+}
