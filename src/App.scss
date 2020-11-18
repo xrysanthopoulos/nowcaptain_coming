@@ -1,0 +1,360 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://github.com/justrajdeep/fonts/blob/master/Ayuthaya.ttf");
+
+.App {
+  height: 100%;
+  width: 100%;
+  float: left;
+  top: 0;
+  padding: none;
+  position: fixed;
+
+  video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+
+  .dark-layer {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(34, 31, 31, 0.1));
+  }
+
+  .App-content {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+    padding: 2vh 1vw;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #000;
+    .logo-hat {
+      padding-bottom: 2vh;
+      margin: auto;
+      display: block;
+      width: 9vw;
+    }
+
+    .logo-text {
+      padding-bottom: 4vh;
+      margin: auto;
+      display: block;
+      width: 20vw;
+    }
+
+    .p-soon {
+      text-transform: uppercase;
+      font-weight: 900;
+      font: normal normal normal 0.8em Ayuthaya;
+      font-size: 1.2em;
+    }
+
+    .paragraph {
+      font-weight: 500;
+      font: Roboto;
+      font-size: 1em;
+      padding: 0 2vw;
+    }
+
+    .newsletter {
+      font-weight: 600;
+      font-size: .7em;
+      font-family: "Roboto";
+      text-align: left;
+      text-transform: uppercase;
+    }
+  }
+
+  .alert {
+    margin-bottom: 0;
+  }
+
+  .newsletter-form {
+    margin-top: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    .contact-form {
+      input {
+        border: 1px solid #0559cc;
+        border-radius: 5px;
+        font-size: 1.2em;
+        display: inline-block;
+      }
+      .btn {
+        display: inline-block;
+        font-size: 0.8em;
+        border-radius: 10px;
+        font-weight: bold;
+        background-color: #0559cc;
+        color: #fff;
+        text-transform: uppercase;
+        padding: 1.2vh 1.2vw;
+        cursor: pointer;
+      }
+      textarea:focus,
+      input:focus {
+        border: 2px solid #0559cc;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+      }
+      *:focus {
+        outline: none;
+      }
+    }
+  }
+
+  .social {
+    padding-top: 3vh;
+    padding-bottom: 2vh;
+    .social-text {
+      font-size: 1.2em;
+      margin: 0 auto;
+      .blue-text {
+        font-size: 1.3em;
+        color: #0559cc;
+        font-weight: bold;
+      }
+    }
+    .social-icon {
+      padding-top: 1vh;
+      width: 3.5vw;
+      cursor: pointer;
+    }
+  }
+}
+
+.btn:hover {
+  color: #fff;
+  background-color: #0449aa;
+}
+
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  .App {
+  
+    .App-content {
+      border-radius: 20px;
+      padding: 2vh 3vw;
+      .logo-hat {
+        padding-bottom: 2vh;
+        margin: auto;
+        width: 15vw;
+      }
+  
+      .logo-text {
+        padding-bottom: 3vh;
+        width: 25vw;
+      }
+  
+      .p-soon {
+        font-size: .8em;
+      }
+  
+      .paragraph {
+        font: Roboto;
+        font-size: .9em;
+      }
+  
+      .newsletter {
+        font-size: .7em;
+        text-align: left;
+      }
+    }
+  
+    .alert {
+      margin-bottom: 0;
+    }
+    
+    .newsletter-form {
+      margin-top: 4vh;
+      .contact-form {
+        input {
+          display: block;
+          margin: 0 auto;
+          font-size: 1em;
+        }
+        .btn {
+          display: block;
+          font-size: 0.8em;
+          border-radius: 10px;
+          padding: 1.2vh 2.2vw;
+        }
+      }
+    }
+  
+    .social {
+      padding-top: 2vh;
+      padding-bottom: 2vh;
+      .social-text {
+        font-size: .8em;
+        margin: 0 auto;
+        .blue-text {
+          font-size: .9em;
+        }
+      }
+      .social-icon {
+        padding-top: 1vh;
+        width: 10.5vw;
+      }
+    }
+  }
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+  .App {
+  
+    .App-content {
+      border-radius: 20px;
+      padding: 2vh 3vw;
+      .logo-hat {
+        padding-bottom: 2vh;
+        margin: auto;
+        width: 15vw;
+      }
+  
+      .logo-text {
+        padding-bottom: 3vh;
+        width: 25vw;
+      }
+  
+      .p-soon {
+        font-size: .8em;
+      }
+  
+      .paragraph {
+        font: Roboto;
+        font-size: .9em;
+      }
+  
+      .newsletter {
+        font-size: .7em;
+        text-align: left;
+      }
+    }
+  
+    .alert {
+      margin-bottom: 0;
+    }
+    .newsletter-form {
+      margin-top: 4vh;
+      .contact-form {
+        input {
+          display: inline;
+          font-size: 1em;
+          margin: auto;
+        }
+        .btn {
+          display: inline;
+          font-size: 0.8em;
+          margin: auto;
+          border-radius: 10px;
+          padding: 1.2vh 2.2vw;
+        }
+      }
+    }
+  
+    .social {
+      padding-top: 2vh;
+      padding-bottom: 2vh;
+      .social-text {
+        font-size: 1em;
+        margin: 0 auto;
+        .blue-text {
+          font-size: 1.1em;
+        }
+      }
+      .social-icon {
+        padding-top: 1vh;
+        width: 5.5vw;
+      }
+    }
+  }
+}
+
+@media (min-width: 576px) {
+  .btn {
+    margin-left: 2vw;
+  }
+}
+
+// Medium devices (tablets, less than 992px)
+@media (min-width: 992px) {
+  .App {
+  
+    .App-content {
+      border-radius: 20px;
+      padding: 2vh 3vw;
+      .logo-hat {
+        padding-bottom: 2vh;
+        margin: auto;
+        width: 10vw;
+      }
+  
+      .logo-text {
+        padding-bottom: 3vh;
+        width: 20vw;
+      }
+  
+      .p-soon {
+        font-size: 1em;
+      }
+  
+      .paragraph {
+        font: Roboto;
+        font-size: 1em;
+      }
+  
+      .newsletter {
+        font-size: .8em;
+        text-align: left;
+      }
+    }
+  
+    .alert {
+      margin-bottom: 0;
+    }
+    .newsletter-form {
+      margin-top: 4vh;
+      .contact-form {
+        input {
+          display: inline;
+          font-size: 1em;
+        }
+        .btn {
+          display: block;
+          font-size: 0.8em;
+          border-radius: 10px;
+          padding: 1.2vh 2.2vw;
+        }
+      }
+    }
+  
+    .social {
+      padding-top: 2vh;
+      padding-bottom: 2vh;
+      .social-text {
+        font-size: 1.3em;
+        margin: 0 auto;
+        .blue-text {
+          font-size: 1.1em;
+        }
+      }
+      .social-icon {
+        padding-top: 1vh;
+        width:3.5vw;
+      }
+    }
+  }
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+}
